@@ -43,7 +43,7 @@ def fun_md5():
         if digest == pass_hash:
             print(Fore.GREEN + '============================')
             print("Password Found")
-            print(Fore.RED + word)
+            print(Fore.YELLOW + word)
             print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
