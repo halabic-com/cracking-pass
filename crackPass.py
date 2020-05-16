@@ -75,10 +75,10 @@ def fun_sha1():
 
         counter+=1
         if digest == pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print(word)
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
@@ -111,10 +111,10 @@ def fun_sha224():
 
         counter+=1
         if digest == pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print(word)
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
@@ -145,10 +145,10 @@ def fun_sha256():
 
         counter+=1
         if digest == pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print(word)
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
@@ -179,10 +179,10 @@ def fun_sha384():
 
         counter+=1
         if digest == pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print(word)
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
@@ -213,10 +213,10 @@ def fun_sha512():
 
         counter+=1
         if digest == pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print(word)
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
@@ -249,10 +249,10 @@ def fun_sha3_224():
 
         counter+=1
         if digest == pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print(word)
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
@@ -283,10 +283,10 @@ def fun_sha3_256():
 
         counter+=1
         if digest == pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print(word)
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
@@ -317,10 +317,10 @@ def fun_sha3_384():
 
         counter+=1
         if digest == pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print(word)
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
@@ -351,10 +351,10 @@ def fun_sha3_512():
 
         counter+=1
         if digest == pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print(word)
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
@@ -450,12 +450,10 @@ else:
 
         counter+=1
         if digest_md5 == pass_hash or digest_SHA1==pass_hash or digest_SHA2_224==pass_hash or digest_SHA2_256==pass_hash or digest_SHA2_384==pass_hash or digest_SHA2_512==pass_hash or digest_SHA3_224== pass_hash or digest_SHA3_256== pass_hash or digest_SHA3_384==pass_hash or digest_SHA3_512==pass_hash:
-            print("=================")
+            print(Fore.GREEN + '============================')
             print("Password Found")
-            print("========================================")
-            print(word)
-            print("========================================")
-            print("=================")
+            print(Fore.YELLOW + word)
+            print(Fore.GREEN + '============================')
             print("Passwords Checked: "+str(counter))
             flag=1
             break
